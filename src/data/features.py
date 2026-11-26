@@ -1,6 +1,8 @@
 import pandas as pd
+from sklearn.model_selection import KFold
 
-K = 5  # smoothing strength
+K = 5          # smoothing strength
+N_FOLDS = 5    # folds for out-of-fold encoding
 
 
 def genre_matrix(movies: pd.DataFrame) -> pd.DataFrame:
@@ -9,33 +11,40 @@ def genre_matrix(movies: pd.DataFrame) -> pd.DataFrame:
     return genres.drop(columns=["(no genres listed)"], errors="ignore")
 
 
+def _encode(source: pd.DataFrame, target: pd.DataFrame, global_mean: float):
+    u = source.groupby("userId")["rating"].agg(["sum", "count"])
+    m = source.groupby("movieId")["rating"].agg(["sum", "count"])
+
+    us = target["userId"].map(u["sum"]).fillna(0)
+    uc = target["userId"].map(u["count"]).fillna(0)
+    ms = target["movieId"].map(m["sum"]).fillna(0)
+    mc = target["movieId"].map(m["count"]).fillna(0)
+
+    out = pd.DataFrame(index=target.index)
+    out["user_mean"] = (us + K * global_mean) / (uc + K)
+    out["user_count"] = uc
+    out["movie_mean"] = (ms + K * global_mean) / (mc + K)
+    out["movie_count"] = mc
+    return out
+
+
 def make_features(train: pd.DataFrame, test: pd.DataFrame, movies: pd.DataFrame):
     global_mean = train["rating"].mean()
     genres = genre_matrix(movies)
 
-    u_sum = train.groupby("userId")["rating"].sum()
-    u_cnt = train.groupby("userId")["rating"].count()
-    m_sum = train.groupby("movieId")["rating"].sum()
-    m_cnt = train.groupby("movieId")["rating"].count()
+    kf = KFold(n_splits=N_FOLDS, shuffle=True, random_state=42)
+    parts = []
+    for fit_idx, enc_idx in kf.split(train):
+        parts.append(_encode(train.iloc[fit_idx], train.iloc[enc_idx], global_mean))
+    train_enc = pd.concat(parts).loc[train.index]
 
-    def build(df: pd.DataFrame, is_train: bool) -> pd.DataFrame:
-        us = df["userId"].map(u_sum).fillna(0)
-        uc = df["userId"].map(u_cnt).fillna(0)
-        ms = df["movieId"].map(m_sum).fillna(0)
-        mc = df["movieId"].map(m_cnt).fillna(0)
+    test_enc = _encode(train, test, global_mean)
+    scale = (N_FOLDS - 1) / N_FOLDS
+    test_enc[["user_count", "movie_count"]] *= scale
 
-        if is_train:
-            us, uc = us - df["rating"], uc - 1
-            ms, mc = ms - df["rating"], mc - 1
-
-        out = pd.DataFrame(index=df.index)
-        out["user_mean"] = (us + K * global_mean) / (uc + K)
-        out["user_count"] = uc
-        out["movie_mean"] = (ms + K * global_mean) / (mc + K)
-        out["movie_count"] = mc
-
+    def add_genres(enc: pd.DataFrame, df: pd.DataFrame) -> pd.DataFrame:
         g = genres.reindex(df["movieId"]).fillna(0)
         g.index = df.index
-        return pd.concat([out, g], axis=1)
+        return pd.concat([enc, g], axis=1)
 
-    return build(train, True), build(test, False)
+    return add_genres(train_enc, train), add_genres(test_enc, test)
