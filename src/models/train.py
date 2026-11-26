@@ -28,14 +28,15 @@ def engineer_features(train, movies):
     return encoder, X_train
 
 
-def train_models(encoder, X_train, train):
+def train_models(encoder, X_train, train, movies):
     y = train["rating"]
     regressor = HistGradientBoostingRegressor(random_state=42).fit(X_train, y)
     classifier = HistGradientBoostingClassifier(random_state=42).fit(
         X_train, (y >= LIKE_THRESHOLD).astype(int))
     recommender = SVDRecommender(n_factors=10).fit(train)
     return {"encoder": encoder, "regressor": regressor,
-            "classifier": classifier, "recommender": recommender}
+            "classifier": classifier, "recommender": recommender,
+            "titles": movies.set_index("movieId")["title"].to_dict()}
 
 
 def evaluate(models, test):
@@ -78,7 +79,8 @@ if __name__ == "__main__":
     ratings, movies, _ = load_data()
     train, test = split_data(ratings)
     encoder, X_train = engineer_features(train, movies)
-    models = train_models(encoder, X_train, train)
+    models = train_models(encoder, X_train, train, movies)
     metrics = evaluate(models, test)
     print(json.dumps(metrics, indent=2))
     print("saved version:", save_bundle(models, metrics))
+    
