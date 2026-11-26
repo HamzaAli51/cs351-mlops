@@ -1,0 +1,320 @@
+if_liked,then_also_liked,support,confidence,lift
+"Shawshank Redemption, The (1994) + Lord of the Rings: The Two Towers, The (2002)","Lord of the Rings: The Return of the King, The (2003)",0.12186978297161936,0.9733333333333334,4.164476190476191
+"Matrix, The (1999) + Lord of the Rings: The Two Towers, The (2002)","Lord of the Rings: The Return of the King, The (2003)",0.1352253756260434,0.9529411764705882,4.077226890756302
+"Lord of the Rings: The Return of the King, The (2003)","Lord of the Rings: The Fellowship of the Ring, The (2001) + Lord of the Rings: The Two Towers, The (2002)",0.17696160267111852,0.757142857142857,4.049362244897958
+"Lord of the Rings: The Fellowship of the Ring, The (2001) + Lord of the Rings: The Two Towers, The (2002)","Lord of the Rings: The Return of the King, The (2003)",0.17696160267111852,0.9464285714285713,4.049362244897958
+"Lord of the Rings: The Two Towers, The (2002)","Lord of the Rings: The Fellowship of the Ring, The (2001) + Lord of the Rings: The Return of the King, The (2003)",0.17696160267111852,0.8091603053435114,4.00567787521292
+"Lord of the Rings: The Fellowship of the Ring, The (2001) + Lord of the Rings: The Return of the King, The (2003)","Lord of the Rings: The Two Towers, The (2002)",0.17696160267111852,0.8760330578512395,4.00567787521292
+"Pulp Fiction (1994) + Godfather, The (1972)","Godfather: Part II, The (1974)",0.12687813021702837,0.6972477064220184,3.903283889222327
+"Godfather: Part II, The (1974)","Pulp Fiction (1994) + Godfather, The (1972)",0.12687813021702837,0.7102803738317757,3.903283889222327
+"Matrix, The (1999) + Lord of the Rings: The Return of the King, The (2003)","Lord of the Rings: The Two Towers, The (2002)",0.1352253756260434,0.8526315789473683,3.89867416633186
+"Lord of the Rings: The Two Towers, The (2002)","Matrix, The (1999) + Lord of the Rings: The Return of the King, The (2003)",0.1352253756260434,0.6183206106870228,3.8986741663318596
+"Shawshank Redemption, The (1994) + Lord of the Rings: The Return of the King, The (2003)","Lord of the Rings: The Two Towers, The (2002)",0.12186978297161936,0.8390804597701149,3.836711415284724
+"Lord of the Rings: The Return of the King, The (2003)","Lord of the Rings: The Two Towers, The (2002)",0.19532554257095158,0.8357142857142857,3.8213195201744825
+"Lord of the Rings: The Two Towers, The (2002)","Lord of the Rings: The Return of the King, The (2003)",0.19532554257095158,0.8931297709923665,3.821319520174482
+"Shawshank Redemption, The (1994) + Lord of the Rings: The Fellowship of the Ring, The (2001)","Lord of the Rings: The Return of the King, The (2003)",0.12353923205342238,0.8809523809523809,3.7692176870748297
+"Pulp Fiction (1994) + Godfather: Part II, The (1974)","Godfather, The (1972)",0.12687813021702837,0.9870129870129868,3.741903665954298
+"Lord of the Rings: The Two Towers, The (2002) + Lord of the Rings: The Return of the King, The (2003)","Lord of the Rings: The Fellowship of the Ring, The (2001)",0.17696160267111852,0.9059829059829059,3.7170120594778124
+"Lord of the Rings: The Fellowship of the Ring, The (2001)","Lord of the Rings: The Two Towers, The (2002) + Lord of the Rings: The Return of the King, The (2003)",0.17696160267111852,0.7260273972602739,3.7170120594778124
+"Lord of the Rings: The Return of the King, The (2003)","Matrix, The (1999) + Lord of the Rings: The Fellowship of the Ring, The (2001)",0.14023372287145242,0.6,3.705154639175258
+"Matrix, The (1999) + Lord of the Rings: The Fellowship of the Ring, The (2001)","Lord of the Rings: The Return of the King, The (2003)",0.14023372287145242,0.865979381443299,3.705154639175258
+"Matrix, The (1999) + Lord of the Rings: The Two Towers, The (2002)","Lord of the Rings: The Fellowship of the Ring, The (2001)",0.12687813021702837,0.8941176470588237,3.6683319903303793
+"Matrix, The (1999) + Lord of the Rings: The Return of the King, The (2003)","Lord of the Rings: The Fellowship of the Ring, The (2001)",0.14023372287145242,0.8842105263157894,3.627685652487383
+"Godfather, The (1972)","Godfather: Part II, The (1974)",0.17028380634390652,0.6455696202531647,3.613983201230333
+"Godfather: Part II, The (1974)","Godfather, The (1972)",0.17028380634390652,0.9532710280373833,3.613983201230333
+"Matrix, The (1999) + Lord of the Rings: The Fellowship of the Ring, The (2001)","Lord of the Rings: The Two Towers, The (2002)",0.12687813021702837,0.7835051546391752,3.5825922719760763
+"Fight Club (1999) + Lord of the Rings: The Fellowship of the Ring, The (2001)","Lord of the Rings: The Return of the King, The (2003)",0.12186978297161936,0.8295454545454546,3.5492694805194804
+"Lord of the Rings: The Return of the King, The (2003)","Lord of the Rings: The Fellowship of the Ring, The (2001)",0.2020033388981636,0.8642857142857143,3.545939334637965
+"Lord of the Rings: The Fellowship of the Ring, The (2001)","Lord of the Rings: The Return of the King, The (2003)",0.2020033388981636,0.8287671232876712,3.5459393346379646
+"Fight Club (1999) + Lord of the Rings: The Return of the King, The (2003)","Lord of the Rings: The Fellowship of the Ring, The (2001)",0.12186978297161936,0.8588235294117649,3.5235294117647067
+"Lord of the Rings: The Fellowship of the Ring, The (2001)","Lord of the Rings: The Two Towers, The (2002)",0.18697829716193656,0.7671232876712328,3.5076858726341107
+"Lord of the Rings: The Two Towers, The (2002)","Lord of the Rings: The Fellowship of the Ring, The (2001)",0.18697829716193656,0.8549618320610687,3.5076858726341107
+"Shawshank Redemption, The (1994) + Lord of the Rings: The Return of the King, The (2003)","Lord of the Rings: The Fellowship of the Ring, The (2001)",0.12353923205342238,0.8505747126436781,3.4896866635175563
+Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981) + Star Wars: Episode VI - Return of the Jedi (1983),Star Wars: Episode V - The Empire Strikes Back (1980),0.13689482470784642,0.9534883720930233,3.399640088593577
+Star Wars: Episode IV - A New Hope (1977) + Indiana Jones and the Last Crusade (1989),Star Wars: Episode V - The Empire Strikes Back (1980),0.12520868113522537,0.9375,3.342633928571429
+Star Wars: Episode IV - A New Hope (1977) + Terminator 2: Judgment Day (1991),Star Wars: Episode V - The Empire Strikes Back (1980),0.1285475792988314,0.885057471264368,3.1556513409961693
+"Terminator, The (1984)",Terminator 2: Judgment Day (1991),0.12353923205342238,0.7872340425531915,3.1436879432624116
+Star Wars: Episode IV - A New Hope (1977) + Back to the Future (1985),Star Wars: Episode V - The Empire Strikes Back (1980),0.12020033388981637,0.8780487804878049,3.1306620209059233
+Pulp Fiction (1994) + Star Wars: Episode VI - Return of the Jedi (1983),Star Wars: Episode V - The Empire Strikes Back (1980),0.12020033388981637,0.8674698795180723,3.0929432013769365
+Star Wars: Episode IV - A New Hope (1977) + Forrest Gump (1994),Star Wars: Episode VI - Return of the Jedi (1983),0.12020033388981637,0.7741935483870968,3.091612903225806
+Star Wars: Episode V - The Empire Strikes Back (1980) + Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),Star Wars: Episode VI - Return of the Jedi (1983),0.13689482470784642,0.7735849056603774,3.089182389937107
+Indiana Jones and the Last Crusade (1989),Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),0.14691151919866444,0.8380952380952381,3.079871457785568
+Star Wars: Episode IV - A New Hope (1977) + Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),Star Wars: Episode V - The Empire Strikes Back (1980),0.1652754590984975,0.8608695652173913,3.069409937888199
+"Star Wars: Episode VI - Return of the Jedi (1983) + Matrix, The (1999)",Star Wars: Episode V - The Empire Strikes Back (1980),0.14524207011686144,0.8529411764705881,3.0411414565826327
+Star Wars: Episode V - The Empire Strikes Back (1980),Star Wars: Episode IV - A New Hope (1977) + Star Wars: Episode VI - Return of the Jedi (1983),0.17863105175292154,0.6369047619047619,3.0278250188964475
+Star Wars: Episode IV - A New Hope (1977) + Star Wars: Episode VI - Return of the Jedi (1983),Star Wars: Episode V - The Empire Strikes Back (1980),0.17863105175292154,0.8492063492063492,3.0278250188964475
+"Star Wars: Episode IV - A New Hope (1977) + Matrix, The (1999)",Star Wars: Episode V - The Empire Strikes Back (1980),0.1669449081803005,0.847457627118644,3.021589991928975
+"Star Wars: Episode V - The Empire Strikes Back (1980) + Matrix, The (1999)",Star Wars: Episode VI - Return of the Jedi (1983),0.14524207011686144,0.75,2.995
+Indiana Jones and the Last Crusade (1989),Star Wars: Episode IV - A New Hope (1977) + Star Wars: Episode V - The Empire Strikes Back (1980),0.12520868113522537,0.7142857142857143,2.9712301587301586
+Star Wars: Episode IV - A New Hope (1977) + Star Wars: Episode V - The Empire Strikes Back (1980),Star Wars: Episode VI - Return of the Jedi (1983),0.17863105175292154,0.7430555555555556,2.9672685185185186
+Star Wars: Episode VI - Return of the Jedi (1983),Star Wars: Episode IV - A New Hope (1977) + Star Wars: Episode V - The Empire Strikes Back (1980),0.17863105175292154,0.7133333333333334,2.9672685185185186
+"Star Wars: Episode IV - A New Hope (1977) + Matrix, The (1999)",Star Wars: Episode VI - Return of the Jedi (1983),0.14524207011686144,0.7372881355932204,2.9442372881355934
+Star Wars: Episode IV - A New Hope (1977) + Pulp Fiction (1994),Star Wars: Episode V - The Empire Strikes Back (1980),0.14858096828046743,0.8165137614678899,2.911260375709917
+Pulp Fiction (1994) + Star Wars: Episode V - The Empire Strikes Back (1980),Star Wars: Episode VI - Return of the Jedi (1983),0.12020033388981637,0.7272727272727273,2.9042424242424243
+Star Wars: Episode IV - A New Hope (1977) + Forrest Gump (1994),Star Wars: Episode V - The Empire Strikes Back (1980),0.12520868113522537,0.8064516129032258,2.875384024577573
+Star Wars: Episode IV - A New Hope (1977) + Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),Star Wars: Episode VI - Return of the Jedi (1983),0.13689482470784642,0.7130434782608696,2.8474202898550725
+Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981) + Star Wars: Episode VI - Return of the Jedi (1983),Star Wars: Episode IV - A New Hope (1977),0.13689482470784642,0.9534883720930233,2.8414902233020944
+"Star Wars: Episode IV - A New Hope (1977) + Silence of the Lambs, The (1991)",Star Wars: Episode V - The Empire Strikes Back (1980),0.13689482470784642,0.7961165048543689,2.838534442903375
+Goodfellas (1990),"Godfather, The (1972)",0.1285475792988314,0.7475728155339807,2.8341526361066736
+Star Wars: Episode IV - A New Hope (1977) + Pulp Fiction (1994),Star Wars: Episode VI - Return of the Jedi (1983),0.1285475792988314,0.706422018348624,2.8209785932721716
+"Star Wars: Episode IV - A New Hope (1977) + Godfather, The (1972)",Star Wars: Episode V - The Empire Strikes Back (1980),0.1318864774624374,0.79,2.816726190476191
+Indiana Jones and the Last Crusade (1989),Star Wars: Episode V - The Empire Strikes Back (1980),0.13689482470784642,0.780952380952381,2.784467120181406
+Star Wars: Episode V - The Empire Strikes Back (1980) + Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),Star Wars: Episode IV - A New Hope (1977),0.1652754590984975,0.9339622641509435,2.783300478738384
+"Godfather, The (1972) + Star Wars: Episode V - The Empire Strikes Back (1980)",Star Wars: Episode IV - A New Hope (1977),0.1318864774624374,0.9294117647058825,2.7697395376060876
+Pulp Fiction (1994) + Star Wars: Episode VI - Return of the Jedi (1983),Star Wars: Episode IV - A New Hope (1977),0.1285475792988314,0.9277108433734942,2.7646706227896667
+Star Wars: Episode VI - Return of the Jedi (1983),Star Wars: Episode V - The Empire Strikes Back (1980),0.19365609348914858,0.7733333333333333,2.7573015873015874
+Star Wars: Episode V - The Empire Strikes Back (1980),Star Wars: Episode VI - Return of the Jedi (1983),0.19365609348914858,0.6904761904761905,2.7573015873015874
+"Star Wars: Episode IV - A New Hope (1977) + Shawshank Redemption, The (1994)",Star Wars: Episode V - The Empire Strikes Back (1980),0.1302170283806344,0.7722772277227723,2.7535360678925036
+Star Wars: Episode V - The Empire Strikes Back (1980) + Star Wars: Episode VI - Return of the Jedi (1983),Star Wars: Episode IV - A New Hope (1977),0.17863105175292154,0.9224137931034483,2.7488848859152513
+Star Wars: Episode V - The Empire Strikes Back (1980) + Indiana Jones and the Last Crusade (1989),Star Wars: Episode IV - A New Hope (1977),0.12520868113522537,0.9146341463414634,2.7257007644703313
+Star Wars: Episode V - The Empire Strikes Back (1980) + Back to the Future (1985),Star Wars: Episode IV - A New Hope (1977),0.12020033388981637,0.9113924050632911,2.716040052900057
+Pulp Fiction (1994) + Star Wars: Episode V - The Empire Strikes Back (1980),Star Wars: Episode IV - A New Hope (1977),0.14858096828046743,0.898989898989899,2.6790793507211417
+Star Wars: Episode IV - A New Hope (1977) + Pulp Fiction (1994),"Godfather, The (1972)",0.1285475792988314,0.706422018348624,2.6781442341191504
+"Silence of the Lambs, The (1991) + Star Wars: Episode V - The Empire Strikes Back (1980)",Star Wars: Episode IV - A New Hope (1977),0.13689482470784642,0.8913043478260869,2.656175643521523
+Terminator 2: Judgment Day (1991) + Star Wars: Episode V - The Empire Strikes Back (1980),Star Wars: Episode IV - A New Hope (1977),0.1285475792988314,0.885057471264368,2.637559329787843
+"Shawshank Redemption, The (1994) + Star Wars: Episode V - The Empire Strikes Back (1980)",Star Wars: Episode IV - A New Hope (1977),0.1302170283806344,0.8764044943820225,2.6117725976857287
+American History X (1998),Fight Club (1999),0.1352253756260434,0.7788461538461537,2.606306403094112
+Star Wars: Episode V - The Empire Strikes Back (1980) + Star Wars: Episode VI - Return of the Jedi (1983),Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),0.13689482470784642,0.7068965517241379,2.5977364078696845
+Pulp Fiction (1994) + Fight Club (1999),Seven (a.k.a. Se7en) (1995),0.12353923205342238,0.6065573770491803,2.59519906323185
+Forrest Gump (1994) + Star Wars: Episode V - The Empire Strikes Back (1980),Star Wars: Episode IV - A New Hope (1977),0.12520868113522537,0.8620689655172413,2.5690512952478985
+"Star Wars: Episode V - The Empire Strikes Back (1980) + Matrix, The (1999)",Star Wars: Episode IV - A New Hope (1977),0.1669449081803005,0.8620689655172413,2.5690512952478985
+Star Wars: Episode V - The Empire Strikes Back (1980),Star Wars: Episode IV - A New Hope (1977),0.24040066777963273,0.8571428571428571,2.554371002132196
+Forrest Gump (1994) + Star Wars: Episode VI - Return of the Jedi (1983),Star Wars: Episode IV - A New Hope (1977),0.12020033388981637,0.8571428571428571,2.554371002132196
+Star Wars: Episode IV - A New Hope (1977),Star Wars: Episode V - The Empire Strikes Back (1980),0.24040066777963273,0.7164179104477612,2.554371002132196
+"Star Wars: Episode VI - Return of the Jedi (1983) + Matrix, The (1999)",Star Wars: Episode IV - A New Hope (1977),0.14524207011686144,0.8529411764705881,2.5418495756511557
+One Flew Over the Cuckoo's Nest (1975),"Godfather, The (1972)",0.12020033388981637,0.6666666666666666,2.5274261603375527
+"Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981) + Matrix, The (1999)",Star Wars: Episode V - The Empire Strikes Back (1980),0.12186978297161936,0.7087378640776699,2.526987979657883
+Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),Star Wars: Episode IV - A New Hope (1977) + Star Wars: Episode V - The Empire Strikes Back (1980),0.1652754590984975,0.6073619631901841,2.526457055214724
+Star Wars: Episode IV - A New Hope (1977) + Star Wars: Episode V - The Empire Strikes Back (1980),Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),0.1652754590984975,0.6875,2.5264570552147236
+Star Wars: Episode VI - Return of the Jedi (1983),Star Wars: Episode IV - A New Hope (1977),0.21035058430717862,0.84,2.5032835820895523
+Star Wars: Episode IV - A New Hope (1977),Star Wars: Episode VI - Return of the Jedi (1983),0.21035058430717862,0.6268656716417911,2.5032835820895523
+Reservoir Dogs (1992),"Usual Suspects, The (1995)",0.12020033388981637,0.679245283018868,2.4961222363699505
+Seven (a.k.a. Se7en) (1995),"Pulp Fiction (1994) + Silence of the Lambs, The (1991)",0.14691151919866444,0.6285714285714286,2.4770676691729325
+Back to the Future (1985),Star Wars: Episode VI - Return of the Jedi (1983),0.12520868113522537,0.6198347107438017,2.4752066115702482
+"Star Wars: Episode IV - A New Hope (1977) + Matrix, The (1999)",Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),0.1302170283806344,0.6610169491525424,2.4291359051679318
+"Pulp Fiction (1994) + Matrix, The (1999)",Fight Club (1999),0.15358931552587646,0.7244094488188976,2.424141116438657
+Pulp Fiction (1994) + American Beauty (1999),Fight Club (1999),0.12186978297161936,0.7227722772277227,2.4186625366447254
+Back to the Future (1985),Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),0.1318864774624374,0.6528925619834711,2.3992800283932465
+Star Wars: Episode IV - A New Hope (1977) + Star Wars: Episode VI - Return of the Jedi (1983),Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),0.13689482470784642,0.6507936507936508,2.391566851689551
+Eternal Sunshine of the Spotless Mind (2004),Fight Club (1999),0.12520868113522537,0.7142857142857143,2.390263367916999
+"Princess Bride, The (1987)",Star Wars: Episode V - The Empire Strikes Back (1980),0.12186978297161936,0.6697247706422018,2.387887723896898
+Inception (2010),Fight Club (1999),0.12687813021702837,0.7102803738317757,2.376860021928679
+Pulp Fiction (1994) + Fight Club (1999),"Usual Suspects, The (1995)",0.1302170283806344,0.639344262295082,2.3494921049984914
+Memento (2000),Fight Club (1999),0.1419031719532554,0.6967213114754097,2.331486399853466
+Pulp Fiction (1994) + Fight Club (1999),"Godfather, The (1972)",0.12520868113522537,0.6147540983606558,2.3306183855571696
+Back to the Future (1985),Star Wars: Episode V - The Empire Strikes Back (1980),0.1318864774624374,0.6528925619834711,2.327872884691067
+Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),Star Wars: Episode V - The Empire Strikes Back (1980),0.17696160267111852,0.6503067484662576,2.3186532281624306
+Star Wars: Episode V - The Empire Strikes Back (1980),Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),0.17696160267111852,0.6309523809523808,2.31865322816243
+"Star Wars: Episode V - The Empire Strikes Back (1980) + Matrix, The (1999)",Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),0.12186978297161936,0.6293103448275862,2.312618997249841
+"Silence of the Lambs, The (1991) + Matrix, The (1999)",Fight Club (1999),0.12687813021702837,0.690909090909091,2.3120365667851703
+"Pulp Fiction (1994) + Godfather, The (1972)",Fight Club (1999),0.12520868113522537,0.6880733944954128,2.302547281020962
+Reservoir Dogs (1992),Fight Club (1999),0.12020033388981637,0.679245283018868,2.2730051649625804
+Indiana Jones and the Last Crusade (1989),Star Wars: Episode IV - A New Hope (1977),0.1335559265442404,0.7619047619047619,2.2705520018952856
+"Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981) + Matrix, The (1999)",Star Wars: Episode IV - A New Hope (1977),0.1302170283806344,0.7572815533980582,2.2567743805245617
+Seven (a.k.a. Se7en) (1995) + Fight Club (1999),Pulp Fiction (1994),0.12353923205342238,0.9135802469135804,2.242764622546044
+"Shawshank Redemption, The (1994) + Saving Private Ryan (1998)","Matrix, The (1999)",0.12353923205342238,0.8222222222222222,2.2185185185185183
+Seven (a.k.a. Se7en) (1995) + Pulp Fiction (1994),Fight Club (1999),0.12353923205342238,0.6607142857142857,2.210993615323224
+"Pulp Fiction (1994) + Shawshank Redemption, The (1994)","Usual Suspects, The (1995)",0.15859766277128548,0.6012658227848101,2.2095596800497006
+"Usual Suspects, The (1995) + Silence of the Lambs, The (1991)",Pulp Fiction (1994),0.15025041736227046,0.9,2.209426229508197
+Forrest Gump (1994) + Fight Club (1999),"Matrix, The (1999)",0.1318864774624374,0.8144329896907216,2.1975016253366766
+"Seven (a.k.a. Se7en) (1995) + Matrix, The (1999)",Pulp Fiction (1994),0.12353923205342238,0.891566265060241,2.1887221015208373
+"Usual Suspects, The (1995) + Fight Club (1999)",Pulp Fiction (1994),0.1302170283806344,0.8863636363636364,2.175950074515648
+"Forrest Gump (1994) + Matrix, The (1999)",Fight Club (1999),0.1318864774624374,0.6475409836065574,2.1669108892755746
+Forrest Gump (1994) + Saving Private Ryan (1998),"Matrix, The (1999)",0.12186978297161936,0.8021978021978022,2.1644886644886645
+"Terminator, The (1984)","Matrix, The (1999)",0.12520868113522537,0.7978723404255319,2.1528177113283493
+"Usual Suspects, The (1995) + Matrix, The (1999)",Pulp Fiction (1994),0.12687813021702837,0.8735632183908046,2.1445260976069345
+"Shawshank Redemption, The (1994) + Matrix, The (1999)",Fight Club (1999),0.1335559265442404,0.64,2.141675977653631
+"Godfather, The (1972) + Fight Club (1999)",Pulp Fiction (1994),0.12520868113522537,0.872093023255814,2.1409168890583303
+"Silence of the Lambs, The (1991) + Fight Club (1999)",Pulp Fiction (1994),0.14357262103505844,0.8686868686868687,2.132555058784567
+"Seven (a.k.a. Se7en) (1995) + Silence of the Lambs, The (1991)",Pulp Fiction (1994),0.14691151919866444,0.8627450980392156,2.11796849887496
+"Usual Suspects, The (1995) + Shawshank Redemption, The (1994)",Schindler's List (1993),0.12186978297161936,0.6186440677966102,2.1175302663438256
+Reservoir Dogs (1992),Pulp Fiction (1994),0.15191986644407346,0.858490566037736,2.1075239715434586
+"Princess Bride, The (1987)",Star Wars: Episode IV - A New Hope (1977),0.1285475792988314,0.706422018348624,2.105207905426994
+"Pulp Fiction (1994) + Godfather, The (1972)",Star Wars: Episode IV - A New Hope (1977),0.1285475792988314,0.706422018348624,2.105207905426994
+"Usual Suspects, The (1995) + Pulp Fiction (1994)",Fight Club (1999),0.1302170283806344,0.6290322580645161,2.1049738691656152
+"Seven (a.k.a. Se7en) (1995) + Shawshank Redemption, The (1994)",Pulp Fiction (1994),0.1302170283806344,0.8571428571428571,2.104215456674473
+Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),Star Wars: Episode IV - A New Hope (1977),0.19198664440734559,0.7055214723926381,2.1025241888715933
+Seven (a.k.a. Se7en) (1995) + Pulp Fiction (1994),"Silence of the Lambs, The (1991)",0.14691151919866444,0.7857142857142857,2.0917460317460317
+"Silence of the Lambs, The (1991) + Fight Club (1999)","Matrix, The (1999)",0.12687813021702837,0.7676767676767676,2.071344071344071
+Saving Private Ryan (1998),"Matrix, The (1999)",0.18030050083472454,0.7659574468085106,2.0667050028752154
+Pulp Fiction (1994) + Star Wars: Episode V - The Empire Strikes Back (1980),"Matrix, The (1999)",0.12520868113522537,0.7575757575757576,2.044089544089544
+Die Hard (1988),"Matrix, The (1999)",0.12520868113522537,0.7575757575757576,2.044089544089544
+"Usual Suspects, The (1995) + Forrest Gump (1994)",Pulp Fiction (1994),0.12186978297161936,0.8295454545454546,2.03646609538003
+Pulp Fiction (1994) + Fight Club (1999),"Matrix, The (1999)",0.15358931552587646,0.7540983606557377,2.034706837985526
+"Lord of the Rings: The Return of the King, The (2003)",Fight Club (1999),0.1419031719532554,0.6071428571428571,2.031723862729449
+Goodfellas (1990),Pulp Fiction (1994),0.1419031719532554,0.8252427184466018,2.0259032309406333
+Star Wars: Episode V - The Empire Strikes Back (1980) + Star Wars: Episode VI - Return of the Jedi (1983),"Matrix, The (1999)",0.14524207011686144,0.75,2.0236486486486487
+Back to the Future (1985),Star Wars: Episode IV - A New Hope (1977),0.13689482470784642,0.6776859504132231,2.019571563669257
+"Lord of the Rings: The Fellowship of the Ring, The (2001) + Lord of the Rings: The Return of the King, The (2003)",Fight Club (1999),0.12186978297161936,0.6033057851239669,2.0188836049679115
+"Lord of the Rings: The Fellowship of the Ring, The (2001)",Fight Club (1999),0.14691151919866444,0.6027397260273972,2.016989362516262
+"Sixth Sense, The (1999)",Fight Club (1999),0.12520868113522537,0.6,2.007821229050279
+Pulp Fiction (1994) + American Beauty (1999),"Matrix, The (1999)",0.12520868113522537,0.7425742574257426,2.0036125234145037
+"Sixth Sense, The (1999)","Matrix, The (1999)",0.15358931552587646,0.736,1.9858738738738737
+Star Wars: Episode IV - A New Hope (1977) + Pulp Fiction (1994),"Matrix, The (1999)",0.1335559265442404,0.7339449541284404,1.980328952806017
+Pulp Fiction (1994) + Schindler's List (1993),"Silence of the Lambs, The (1991)",0.1302170283806344,0.7428571428571429,1.9776507936507937
+"Usual Suspects, The (1995) + Shawshank Redemption, The (1994)",Pulp Fiction (1994),0.15859766277128548,0.8050847457627118,1.9764170602945264
+American Beauty (1999) + Fight Club (1999),Pulp Fiction (1994),0.12186978297161936,0.8021978021978022,1.9693298504773917
+Seven (a.k.a. Se7en) (1995),Pulp Fiction (1994),0.18697829716193656,0.8,1.9639344262295084
+Reservoir Dogs (1992),"Matrix, The (1999)",0.1285475792988314,0.7264150943396229,1.9600118986911446
+American History X (1998),Pulp Fiction (1994),0.13856427378964942,0.7980769230769231,1.9592134300126105
+"Silence of the Lambs, The (1991) + Godfather, The (1972)",Pulp Fiction (1994),0.1285475792988314,0.7938144329896909,1.9487493662328887
+"Silence of the Lambs, The (1991) + Matrix, The (1999)",Pulp Fiction (1994),0.14524207011686144,0.790909090909091,1.9416169895678095
+Seven (a.k.a. Se7en) (1995),"Silence of the Lambs, The (1991)",0.17028380634390652,0.7285714285714286,1.9396190476190478
+"Godfather, The (1972) + Matrix, The (1999)",Pulp Fiction (1994),0.12520868113522537,0.7894736842105263,1.93809318377912
+"Usual Suspects, The (1995) + Pulp Fiction (1994)","Silence of the Lambs, The (1991)",0.15025041736227046,0.7258064516129032,1.9322580645161291
+"Shawshank Redemption, The (1994) + Saving Private Ryan (1998)",Forrest Gump (1994),0.12020033388981637,0.8,1.9244979919678715
+"Shawshank Redemption, The (1994) + Godfather, The (1972)",Pulp Fiction (1994),0.1285475792988314,0.7777777777777779,1.9093806921675778
+"Shawshank Redemption, The (1994) + Silence of the Lambs, The (1991)",Pulp Fiction (1994),0.18030050083472454,0.7714285714285715,1.8937939110070259
+"Star Wars: Episode IV - A New Hope (1977) + Godfather, The (1972)",Pulp Fiction (1994),0.1285475792988314,0.7700000000000001,1.890286885245902
+"Godfather, The (1972)",Star Wars: Episode IV - A New Hope (1977),0.1669449081803005,0.6329113924050633,1.8861389256250396
+Star Wars: Episode IV - A New Hope (1977) + Pulp Fiction (1994),"Silence of the Lambs, The (1991)",0.1285475792988314,0.706422018348624,1.8806523955147811
+"Pulp Fiction (1994) + Godfather, The (1972)","Silence of the Lambs, The (1991)",0.1285475792988314,0.706422018348624,1.8806523955147811
+"Matrix, The (1999) + American Beauty (1999)",Pulp Fiction (1994),0.12520868113522537,0.7653061224489794,1.8787638006022078
+"Usual Suspects, The (1995) + Schindler's List (1993)","Shawshank Redemption, The (1994)",0.12186978297161936,0.8588235294117649,1.8775010734220698
+"Schindler's List (1993) + Silence of the Lambs, The (1991)",Pulp Fiction (1994),0.1302170283806344,0.7647058823529411,1.8772902603664416
+"Pulp Fiction (1994) + Matrix, The (1999)",Star Wars: Episode IV - A New Hope (1977),0.1335559265442404,0.6299212598425196,1.877228033063031
+Pulp Fiction (1994) + Fight Club (1999),"Silence of the Lambs, The (1991)",0.14357262103505844,0.7049180327868853,1.876648451730419
+Indiana Jones and the Last Crusade (1989),"Matrix, The (1999)",0.12186978297161936,0.6952380952380952,1.8758901758901758
+Star Wars: Episode IV - A New Hope (1977) + Star Wars: Episode V - The Empire Strikes Back (1980),"Matrix, The (1999)",0.1669449081803005,0.6944444444444444,1.8737487487487485
+"Lord of the Rings: The Fellowship of the Ring, The (2001) + Lord of the Rings: The Return of the King, The (2003)","Matrix, The (1999)",0.14023372287145242,0.6942148760330579,1.8731293276747822
+"Lord of the Rings: The Two Towers, The (2002) + Lord of the Rings: The Return of the King, The (2003)","Matrix, The (1999)",0.1352253756260434,0.6923076923076922,1.8679833679833675
+"Usual Suspects, The (1995)",Pulp Fiction (1994),0.20701168614357263,0.7607361963190185,1.8675450065372625
+Alien (1979),"Matrix, The (1999)",0.12687813021702837,0.690909090909091,1.8642096642096644
+Star Wars: Episode V - The Empire Strikes Back (1980),"Matrix, The (1999)",0.19365609348914858,0.6904761904761905,1.863041613041613
+Star Wars: Episode IV - A New Hope (1977) + Star Wars: Episode VI - Return of the Jedi (1983),"Matrix, The (1999)",0.14524207011686144,0.6904761904761905,1.863041613041613
+"Shawshank Redemption, The (1994) + Fight Club (1999)","Matrix, The (1999)",0.1335559265442404,0.6896551724137931,1.8608263435849643
+Star Wars: Episode V - The Empire Strikes Back (1980) + Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),"Matrix, The (1999)",0.12186978297161936,0.6886792452830189,1.8581930987591366
+"Pulp Fiction (1994) + Godfather, The (1972)","Matrix, The (1999)",0.12520868113522537,0.6880733944954128,1.8565583932556409
+"Matrix, The (1999) + Fight Club (1999)",Pulp Fiction (1994),0.15358931552587646,0.7540983606557377,1.8512496640687988
+Forrest Gump (1994) + Fight Club (1999),Pulp Fiction (1994),0.12186978297161936,0.7525773195876289,1.847515632922089
+"Star Wars: Episode IV - A New Hope (1977) + Shawshank Redemption, The (1994)",Pulp Fiction (1994),0.12687813021702837,0.7524752475247525,1.84726505437429
+Gladiator (2000),"Matrix, The (1999)",0.1335559265442404,0.6837606837606838,1.844921844921845
+Inception (2010),"Matrix, The (1999)",0.12186978297161936,0.6822429906542056,1.8408268081165275
+Fight Club (1999),"Matrix, The (1999)",0.2036727879799666,0.6815642458100558,1.8389954200010064
+"Star Wars: Episode IV - A New Hope (1977) + Silence of the Lambs, The (1991)",Pulp Fiction (1994),0.1285475792988314,0.7475728155339807,1.8352299856756331
+Star Wars: Episode VI - Return of the Jedi (1983),"Matrix, The (1999)",0.17028380634390652,0.68,1.834774774774775
+"Braveheart (1995) + Shawshank Redemption, The (1994)",Forrest Gump (1994),0.13856427378964942,0.7614678899082569,1.8318042813455657
+"Lord of the Rings: The Return of the King, The (2003)","Matrix, The (1999)",0.15859766277128548,0.6785714285714286,1.8309202059202059
+"Lord of the Rings: The Fellowship of the Ring, The (2001) + Lord of the Rings: The Two Towers, The (2002)","Matrix, The (1999)",0.12687813021702837,0.6785714285714286,1.8309202059202059
+Star Wars: Episode IV - A New Hope (1977) + Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),"Matrix, The (1999)",0.1302170283806344,0.6782608695652174,1.8300822561692125
+"Godfather, The (1972) + Godfather: Part II, The (1974)",Pulp Fiction (1994),0.12687813021702837,0.7450980392156862,1.8291546126647378
+Forrest Gump (1994) + Fight Club (1999),"Shawshank Redemption, The (1994)",0.1352253756260434,0.8350515463917524,1.8255323952140865
+"Pulp Fiction (1994) + Matrix, The (1999)","Silence of the Lambs, The (1991)",0.14524207011686144,0.68503937007874,1.8237270341207346
+"Pulp Fiction (1994) + Shawshank Redemption, The (1994)","Silence of the Lambs, The (1991)",0.18030050083472454,0.6835443037974683,1.819746835443038
+Saving Private Ryan (1998),Star Wars: Episode IV - A New Hope (1977),0.14357262103505844,0.6099290780141844,1.8176493419427684
+Fargo (1996),Star Wars: Episode IV - A New Hope (1977),0.13856427378964942,0.6058394160583942,1.8054617423829757
+"Braveheart (1995) + Shawshank Redemption, The (1994)",Pulp Fiction (1994),0.1335559265442404,0.7339449541284404,1.8017747029628517
+Pulp Fiction (1994) + Forrest Gump (1994),"Silence of the Lambs, The (1991)",0.15358931552587646,0.6764705882352942,1.8009150326797387
+"Green Mile, The (1999)","Shawshank Redemption, The (1994)",0.12186978297161936,0.8202247191011236,1.793119002706471
+"Lord of the Rings: The Fellowship of the Ring, The (2001)","Matrix, The (1999)",0.16193656093489148,0.6643835616438356,1.7926385289398987
+Memento (2000),"Matrix, The (1999)",0.1352253756260434,0.663934426229508,1.7914266725742132
+Seven (a.k.a. Se7en) (1995) + Pulp Fiction (1994),"Matrix, The (1999)",0.12353923205342238,0.6607142857142857,1.7827380952380951
+Forrest Gump (1994) + Schindler's List (1993),"Shawshank Redemption, The (1994)",0.14691151919866444,0.8148148148148148,1.7812922411462557
+"Godfather: Part II, The (1974)",Pulp Fiction (1994),0.1285475792988314,0.7196261682242991,1.7666232572391607
+"Forrest Gump (1994) + Silence of the Lambs, The (1991)",Pulp Fiction (1994),0.15358931552587646,0.71875,1.7644723360655739
+"Shawshank Redemption, The (1994) + Fight Club (1999)",Pulp Fiction (1994),0.13856427378964942,0.7155172413793104,1.7565361786319957
+Fargo (1996),Pulp Fiction (1994),0.1636060100166945,0.7153284671532848,1.7560727533804001
+Braveheart (1995) + Pulp Fiction (1994),Forrest Gump (1994),0.12520868113522537,0.7281553398058253,1.7516668616212423
+Dances with Wolves (1990),Forrest Gump (1994),0.12520868113522537,0.7281553398058253,1.7516668616212423
+"Lord of the Rings: The Two Towers, The (2002)","Matrix, The (1999)",0.1419031719532554,0.6488549618320609,1.7507392889072273
+Fargo (1996),"Silence of the Lambs, The (1991)",0.15025041736227046,0.656934306569343,1.748905109489051
+American Beauty (1999),"Matrix, The (1999)",0.1636060100166945,0.6447368421052633,1.7396277856804174
+"Dark Knight, The (2008)","Matrix, The (1999)",0.12020033388981637,0.6428571428571429,1.7345559845559846
+"Forrest Gump (1994) + Matrix, The (1999)",Pulp Fiction (1994),0.14357262103505844,0.7049180327868853,1.7305159903251814
+Forrest Gump (1994) + Saving Private Ryan (1998),"Shawshank Redemption, The (1994)",0.12020033388981637,0.7912087912087912,1.7296863720221383
+Good Will Hunting (1997),Forrest Gump (1994),0.12353923205342238,0.7184466019417476,1.7283113034662925
+Pulp Fiction (1994) + Schindler's List (1993),"Shawshank Redemption, The (1994)",0.13856427378964942,0.7904761904761904,1.7280848105665623
+"Usual Suspects, The (1995) + Shawshank Redemption, The (1994)","Silence of the Lambs, The (1991)",0.12687813021702837,0.6440677966101694,1.7146516007532955
+"Schindler's List (1993) + Silence of the Lambs, The (1991)","Shawshank Redemption, The (1994)",0.1335559265442404,0.784313725490196,1.714612852440246
+"Shawshank Redemption, The (1994) + Matrix, The (1999)",Forrest Gump (1994),0.14858096828046743,0.712,1.7128032128514055
+Pulp Fiction (1994) + Forrest Gump (1994),"Matrix, The (1999)",0.14357262103505844,0.6323529411764706,1.706213566507684
+Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),"Matrix, The (1999)",0.17195325542570952,0.6319018404907976,1.7049964074503952
+Pulp Fiction (1994) + Forrest Gump (1994),"Shawshank Redemption, The (1994)",0.17696160267111852,0.7794117647058822,1.7038965221124944
+"Sixth Sense, The (1999)","Silence of the Lambs, The (1991)",0.1335559265442404,0.64,1.7038222222222223
+Braveheart (1995) + Pulp Fiction (1994),"Shawshank Redemption, The (1994)",0.1335559265442404,0.7766990291262136,1.6979661257175254
+"Godfather, The (1972)",Pulp Fiction (1994),0.18196994991652754,0.689873417721519,1.6935826935048766
+Braveheart (1995) + Forrest Gump (1994),Pulp Fiction (1994),0.12520868113522537,0.6880733944954128,1.6891637840276734
+One Flew Over the Cuckoo's Nest (1975),Pulp Fiction (1994),0.12353923205342238,0.6851851851851852,1.6820734669095327
+"Shawshank Redemption, The (1994) + Fight Club (1999)",Forrest Gump (1994),0.1352253756260434,0.6982758620689654,1.6797881179891978
+Good Will Hunting (1997),"Shawshank Redemption, The (1994)",0.1318864774624374,0.7669902912621359,1.6767415491460562
+"Usual Suspects, The (1995) + Pulp Fiction (1994)","Shawshank Redemption, The (1994)",0.15859766277128548,0.7661290322580645,1.6748587238050388
+Fight Club (1999),Pulp Fiction (1994),0.2036727879799666,0.6815642458100558,1.6731843575418994
+Braveheart (1995) + Forrest Gump (1994),"Shawshank Redemption, The (1994)",0.13856427378964942,0.7614678899082569,1.664668854215496
+Twelve Monkeys (a.k.a. 12 Monkeys) (1995),Pulp Fiction (1994),0.1335559265442404,0.6779661016949152,1.6643512086690748
+"Star Wars: Episode IV - A New Hope (1977) + Matrix, The (1999)",Pulp Fiction (1994),0.1335559265442404,0.6779661016949152,1.6643512086690748
+"Usual Suspects, The (1995) + Silence of the Lambs, The (1991)","Shawshank Redemption, The (1994)",0.12687813021702837,0.76,1.6614598540145986
+"Silence of the Lambs, The (1991)",Pulp Fiction (1994),0.25375626043405675,0.6755555555555556,1.658433515482696
+Pulp Fiction (1994),"Silence of the Lambs, The (1991)",0.25375626043405675,0.6229508196721312,1.658433515482696
+"Matrix, The (1999) + Fight Club (1999)","Silence of the Lambs, The (1991)",0.12687813021702837,0.6229508196721312,1.658433515482696
+Terminator 2: Judgment Day (1991),"Matrix, The (1999)",0.15358931552587646,0.6133333333333333,1.6548948948948947
+"Usual Suspects, The (1995) + Pulp Fiction (1994)","Matrix, The (1999)",0.12687813021702837,0.6129032258064516,1.653734379540831
+"Lion King, The (1994)",Forrest Gump (1994),0.1318864774624374,0.6869565217391305,1.6525580583202375
+"Shawshank Redemption, The (1994) + Fight Club (1999)","Silence of the Lambs, The (1991)",0.12020033388981637,0.6206896551724138,1.6524137931034484
+"Shawshank Redemption, The (1994) + Schindler's List (1993)","Silence of the Lambs, The (1991)",0.1335559265442404,0.6201550387596899,1.65099052540913
+Back to the Future (1985),"Matrix, The (1999)",0.12353923205342238,0.6115702479338843,1.6501377410468319
+"Shawshank Redemption, The (1994) + Schindler's List (1993)",Forrest Gump (1994),0.14691151919866444,0.6821705426356589,1.6410447993524486
+"Godfather, The (1972)","Silence of the Lambs, The (1991)",0.16193656093489148,0.6139240506329114,1.6344022503516176
+"Usual Suspects, The (1995)","Silence of the Lambs, The (1991)",0.1669449081803005,0.6134969325153374,1.6332651670074982
+"Shawshank Redemption, The (1994) + Silence of the Lambs, The (1991)",Forrest Gump (1994),0.15859766277128548,0.6785714285714286,1.6323866896156054
+American Beauty (1999),Pulp Fiction (1994),0.1686143572621035,0.6644736842105263,1.6312284296807593
+"Shawshank Redemption, The (1994) + Matrix, The (1999)",Pulp Fiction (1994),0.13856427378964942,0.664,1.6300655737704919
+"Pulp Fiction (1994) + Matrix, The (1999)",Forrest Gump (1994),0.14357262103505844,0.6771653543307086,1.629004205799576
+"Saving Private Ryan (1998) + Matrix, The (1999)",Forrest Gump (1994),0.12186978297161936,0.6759259259259259,1.626022608954336
+Jurassic Park (1993),Forrest Gump (1994),0.1636060100166945,0.6758620689655174,1.6258689932142365
+Saving Private Ryan (1998),"Silence of the Lambs, The (1991)",0.14357262103505844,0.6099290780141844,1.6237667454688731
+"Forrest Gump (1994) + Silence of the Lambs, The (1991)","Shawshank Redemption, The (1994)",0.15859766277128548,0.7421875,1.6225193886861313
+"Godfather, The (1972)","Matrix, The (1999)",0.15859766277128548,0.6012658227848101,1.6223343596761317
+"Pulp Fiction (1994) + Shawshank Redemption, The (1994)",Forrest Gump (1994),0.17696160267111852,0.670886075949367,1.6138986325047022
+Schindler's List (1993),"Shawshank Redemption, The (1994)",0.21535893155258765,0.7371428571428571,1.6114911366006255
+Apollo 13 (1995),Forrest Gump (1994),0.1419031719532554,0.669291338582677,1.6100622964298132
+Memento (2000),Pulp Fiction (1994),0.1335559265442404,0.6557377049180327,1.6097823165815641
+"Forrest Gump (1994) + Matrix, The (1999)","Shawshank Redemption, The (1994)",0.14858096828046743,0.7295081967213115,1.594800765825057
+"Silence of the Lambs, The (1991) + Fight Club (1999)","Shawshank Redemption, The (1994)",0.12020033388981637,0.7272727272727273,1.5899137358991373
+"Star Wars: Episode V - The Empire Strikes Back (1980) + Matrix, The (1999)",Pulp Fiction (1994),0.12520868113522537,0.646551724137931,1.5872314867156587
+"Usual Suspects, The (1995)","Shawshank Redemption, The (1994)",0.19699499165275458,0.7239263803680982,1.5825981818996016
+Braveheart (1995),Forrest Gump (1994),0.18196994991652754,0.6566265060240963,1.579595490395316
+"Shawshank Redemption, The (1994) + Schindler's List (1993)",Pulp Fiction (1994),0.13856427378964942,0.6434108527131783,1.579520904816368
+American History X (1998),"Shawshank Redemption, The (1994)",0.12520868113522537,0.7211538461538461,1.5765370578326783
+Terminator 2: Judgment Day (1991),Pulp Fiction (1994),0.16026711185308848,0.64,1.5711475409836066
+"Matrix, The (1999) + Fight Club (1999)",Forrest Gump (1994),0.1318864774624374,0.6475409836065574,1.5577391533346503
+Aladdin (1992),Forrest Gump (1994),0.12186978297161936,0.6460176991150443,1.5540747059032591
+"Pulp Fiction (1994) + Silence of the Lambs, The (1991)","Shawshank Redemption, The (1994)",0.18030050083472454,0.7105263157894737,1.553303880138302
+Saving Private Ryan (1998),Forrest Gump (1994),0.15191986644407346,0.6453900709219859,1.552564869406705
+Apollo 13 (1995),"Shawshank Redemption, The (1994)",0.15025041736227046,0.7086614173228346,1.5492269670670726
+"Shawshank Redemption, The (1994) + Forrest Gump (1994)",Pulp Fiction (1994),0.17696160267111852,0.6309523809523808,1.5489363778298202
+"Pulp Fiction (1994) + Godfather, The (1972)","Shawshank Redemption, The (1994)",0.1285475792988314,0.706422018348624,1.5443313466818458
+Goodfellas (1990),"Shawshank Redemption, The (1994)",0.12020033388981637,0.6990291262135923,1.5281695131457729
+Star Wars: Episode IV - A New Hope (1977) + Pulp Fiction (1994),"Shawshank Redemption, The (1994)",0.12687813021702837,0.6972477064220184,1.5242750954262372
+Star Wars: Episode V - The Empire Strikes Back (1980) + Star Wars: Episode VI - Return of the Jedi (1983),Pulp Fiction (1994),0.12020033388981637,0.6206896551724138,1.5237422272470322
+Braveheart (1995),Pulp Fiction (1994),0.17195325542570952,0.6204819277108434,1.5232322733557182
+Seven (a.k.a. Se7en) (1995) + Pulp Fiction (1994),"Shawshank Redemption, The (1994)",0.1302170283806344,0.6964285714285714,1.5224843587069863
+Star Wars: Episode IV - A New Hope (1977) + Star Wars: Episode V - The Empire Strikes Back (1980),Pulp Fiction (1994),0.14858096828046743,0.6180555555555556,1.51727572859745
+Inception (2010),"Shawshank Redemption, The (1994)",0.12353923205342238,0.6915887850467289,1.5119039497919367
+"Sixth Sense, The (1999)",Forrest Gump (1994),0.1302170283806344,0.624,1.5011084337349399
+Star Wars: Episode IV - A New Hope (1977) + Star Wars: Episode VI - Return of the Jedi (1983),Pulp Fiction (1994),0.1285475792988314,0.6111111111111113,1.500227686703097
+"Saving Private Ryan (1998) + Matrix, The (1999)","Shawshank Redemption, The (1994)",0.12353923205342238,0.6851851851851852,1.497904839145715
+"Fugitive, The (1993)",Forrest Gump (1994),0.1419031719532554,0.6204379562043795,1.4925395010699731
+Pulp Fiction (1994) + Fight Club (1999),"Shawshank Redemption, The (1994)",0.13856427378964942,0.680327868852459,1.4872861074548283
+Schindler's List (1993),Forrest Gump (1994),0.18030050083472454,0.6171428571428571,1.4846127366609294
+Seven (a.k.a. Se7en) (1995),Forrest Gump (1994),0.14357262103505844,0.6142857142857143,1.4777395295467586
+Forrest Gump (1994),"Shawshank Redemption, The (1994)",0.28046744574290483,0.6746987951807228,1.4749802128220912
+"Shawshank Redemption, The (1994)",Forrest Gump (1994),0.28046744574290483,0.6131386861313869,1.4749802128220912
+Schindler's List (1993),Pulp Fiction (1994),0.17529215358931552,0.6,1.4729508196721313
+Back to the Future (1985),Forrest Gump (1994),0.12353923205342238,0.6115702479338843,1.471207142620067
+"Dark Knight, The (2008)","Shawshank Redemption, The (1994)",0.12520868113522537,0.6696428571428571,1.4639272679874868
+"Pulp Fiction (1994) + Silence of the Lambs, The (1991)",Forrest Gump (1994),0.15358931552587646,0.6052631578947368,1.4560346649756921
+Braveheart (1995),"Shawshank Redemption, The (1994)",0.18196994991652754,0.6566265060240963,1.4354718142643565
+"Matrix, The (1999) + Fight Club (1999)","Shawshank Redemption, The (1994)",0.1335559265442404,0.6557377049180327,1.433528778269714
+"Pulp Fiction (1994) + Matrix, The (1999)","Shawshank Redemption, The (1994)",0.13856427378964942,0.6535433070866141,1.4287315362951893
+Seven (a.k.a. Se7en) (1995),"Shawshank Redemption, The (1994)",0.15191986644407346,0.65,1.420985401459854
+Fight Club (1999),"Shawshank Redemption, The (1994)",0.19365609348914858,0.64804469273743,1.416710842882192
+Pulp Fiction (1994),"Shawshank Redemption, The (1994)",0.2637729549248748,0.6475409836065574,1.4156096685413426
+Memento (2000),"Shawshank Redemption, The (1994)",0.1302170283806344,0.639344262295082,1.3976905588129713
+Saving Private Ryan (1998),"Shawshank Redemption, The (1994)",0.15025041736227046,0.6382978723404256,1.3954030128902004
+"Godfather, The (1972)","Shawshank Redemption, The (1994)",0.1652754590984975,0.6265822784810127,1.3697911854384182
+"Lord of the Rings: The Two Towers, The (2002) + Lord of the Rings: The Return of the King, The (2003)","Shawshank Redemption, The (1994)",0.12186978297161936,0.6239316239316239,1.3639965063322728
+"Silence of the Lambs, The (1991)","Shawshank Redemption, The (1994)",0.2337228714524207,0.6222222222222222,1.3602595296025952
+"Lord of the Rings: The Return of the King, The (2003)","Shawshank Redemption, The (1994)",0.14524207011686144,0.6214285714285714,1.358524504692388
+"Lord of the Rings: The Fellowship of the Ring, The (2001) + Lord of the Rings: The Return of the King, The (2003)","Shawshank Redemption, The (1994)",0.12353923205342238,0.6115702479338843,1.33697291427882
+Twelve Monkeys (a.k.a. 12 Monkeys) (1995),"Shawshank Redemption, The (1994)",0.12020033388981637,0.6101694915254238,1.3339106767289373
+"Fugitive, The (1993)","Shawshank Redemption, The (1994)",0.13856427378964942,0.6058394160583942,1.324444562842986
