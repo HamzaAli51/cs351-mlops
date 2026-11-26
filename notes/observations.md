@@ -33,3 +33,15 @@
 - K-Means silhouette is low everywhere (best 0.1151 at k=3, 0.0878 at k=10): weak cluster structure, tastes are a continuum.
 - k searched from 3 to 10 on purpose (k=2 only splits users crudely).
 - Clusters: 0 = crime/thriller (227 users, avg 3.76); 1 = action/adventure/sci-fi (137, 3.75); 2 = comedy/romance/drama (246, 3.51).
+
+## Association rules observations
+- 599 user baskets of liked movies (rating >= 4), top-200 movies only; FP-Growth, support >= 0.12, lift >= 1.2, confidence >= 0.6.
+- 389 frequent itemsets, 319 rules. Top rule: Shawshank + Two Towers -> Return of the King (confidence 0.973, lift 4.16).
+- Top rules are dominated by franchises (LOTR trilogy, Godfather); many rules are permutations of the same itemset.
+
+## Time series observations
+- Monthly rating counts, 271 months (4 with zero ratings); ADF p < 0.0001 (stationary). Holdout: last 24 months.
+- Best RMSE: mean of last 12 months (538.9). Best MAE: Holt-Winters (371.1), ARIMA(1,1,1) 376.4.
+- Seasonal naive worst (RMSE 870.3): no stable yearly seasonality.
+- Limitation: volume is driven by a few heavy raters, so the series is bursty.
+- Future work: ARIMA(1,0,1), since ADF says no differencing is needed.
