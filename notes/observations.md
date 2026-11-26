@@ -19,3 +19,10 @@
   GB classification test acc 0.7157 / F1 0.7085 / AUC 0.7914 (logistic: 0.7067 / 0.6940 / 0.7787).
 - Fixing the leakage improved GB test AUC from 0.7548 to 0.7914 and test RMSE from 0.8960 to 0.8620.
 - Best model for both tasks: HistGradientBoosting.
+
+## Recommender observations
+- SVD test RMSE: 0.9210 (10 factors) -> 0.9405 (100 factors); more factors overfit.
+- Precision@10: popularity 0.1225, best SVD (20 factors) 0.1339, SVD-100 0.0903.
+- SVD beats the user-mean baseline (0.9497) but not gradient boosting regression (0.8620).
+- Similar-movie lists are noisy for movies with few ratings (e.g. Toy Story neighbours are mixed genres).
+- Saved model: 10 factors (lowest RMSE).
