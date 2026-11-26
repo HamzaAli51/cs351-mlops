@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+scikit-surprise
+mlxtend
+statsmodels
+matplotlib
+requests
+joblib
+fastapi
+uvicorn[standard]
+python-multipart
+prefect
+deepchecks
+pytest
+httpx
