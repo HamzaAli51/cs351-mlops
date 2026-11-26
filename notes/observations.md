@@ -14,3 +14,8 @@
 - Linear/logistic regression were unaffected (train ~ test).
 - Fix (v2): 5-fold out-of-fold target encoding.
 - Class balance: 48.2% "liked" (rating >= 4), so near-balanced; baseline accuracy 52%.
+
+- v2 (out-of-fold encoding) results: GB regression test RMSE 0.8620 (baseline 1.0488, linear 0.8799);
+  GB classification test acc 0.7157 / F1 0.7085 / AUC 0.7914 (logistic: 0.7067 / 0.6940 / 0.7787).
+- Fixing the leakage improved GB test AUC from 0.7548 to 0.7914 and test RMSE from 0.8960 to 0.8620.
+- Best model for both tasks: HistGradientBoosting.
