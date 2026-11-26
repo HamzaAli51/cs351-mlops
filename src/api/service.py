@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 from pathlib import Path
 
 import pandas as pd
@@ -10,9 +11,10 @@ log = logging.getLogger("mlops.api")
 
 
 class ModelService:
-    def __init__(self, root=MODELS_DIR):
+    def __init__(self, root=None):
+        root = Path(root or os.getenv("MODEL_DIR", MODELS_DIR))
         self.models, self.version = load_latest_bundle(root)
-        info = json.loads((Path(root) / self.version / "metrics.json").read_text())
+        info = json.loads((root / self.version / "metrics.json").read_text())
         self.metrics = info["metrics"]
         self.encoder = self.models["encoder"]
         self.titles = self.models["titles"]

@@ -7,11 +7,7 @@ from src.data.ingest import load_data
 from src.models.train import (engineer_features, evaluate, save_bundle,
                               split_data, train_models)
 from src.pipelines.notify import notify
-
-MIN_ROWS = 50_000
-MAX_REG_RMSE = 0.90
-MIN_CLF_AUC = 0.75
-MAX_SVD_RMSE = 0.95
+from src.validation.checks import assert_performance, validate_data
 
 
 @task(name="ingest-data", retries=3, retry_delay_seconds=[5, 15, 30],
@@ -24,17 +20,7 @@ def ingest_task():
 
 @task(name="validate-data", cache_policy=NO_CACHE)
 def validate_task(ratings, movies):
-    problems = []
-    if len(ratings) < MIN_ROWS:
-        problems.append(f"only {len(ratings)} rating rows (need {MIN_ROWS}+)")
-    if ratings[["userId", "movieId", "rating"]].isna().any().any():
-        problems.append("missing values in ratings")
-    if not ratings["rating"].between(0.5, 5.0).all():
-        problems.append("ratings outside the 0.5-5.0 range")
-    if ratings.duplicated(subset=["userId", "movieId"]).any():
-        problems.append("duplicate user-movie pairs")
-    if problems:
-        raise ValueError("Data validation failed: " + "; ".join(problems))
+    validate_data(ratings, movies)
     print("data validation passed")
 
 
@@ -64,15 +50,7 @@ def evaluate_task(models, test):
 
 @task(name="quality-gate", cache_policy=NO_CACHE)
 def gate_task(metrics):
-    failures = []
-    if metrics["reg_rmse"] > MAX_REG_RMSE:
-        failures.append(f"regression RMSE {metrics['reg_rmse']:.4f} > {MAX_REG_RMSE}")
-    if metrics["clf_roc_auc"] < MIN_CLF_AUC:
-        failures.append(f"classifier AUC {metrics['clf_roc_auc']:.4f} < {MIN_CLF_AUC}")
-    if metrics["svd_rmse"] > MAX_SVD_RMSE:
-        failures.append(f"SVD RMSE {metrics['svd_rmse']:.4f} > {MAX_SVD_RMSE}")
-    if failures:
-        raise ValueError("Quality gate failed: " + "; ".join(failures))
+    assert_performance(metrics)
     print("quality gate passed")
 
 

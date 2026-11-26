@@ -1,7 +1,7 @@
 pandas
 numpy
+scipy
 scikit-learn
-scikit-surprise
 mlxtend
 statsmodels
 matplotlib
@@ -11,6 +11,5 @@ fastapi
 uvicorn[standard]
 python-multipart
 prefect
-deepchecks
 pytest
 httpx
