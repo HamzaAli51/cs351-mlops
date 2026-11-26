@@ -26,3 +26,10 @@
 - SVD beats the user-mean baseline (0.9497) but not gradient boosting regression (0.8620).
 - Similar-movie lists are noisy for movies with few ratings (e.g. Toy Story neighbours are mixed genres).
 - Saved model: 10 factors (lowest RMSE).
+
+## Clustering / PCA observations
+- User profile = share of ratings per genre (19) + avg rating (20 features), standardised.
+- PCA: 12 of 20 components needed for 90% variance; PC1 22.4%, PC2 19.3% (PC1: Crime/Drama/Thriller vs Fantasy/Animation/Children).
+- K-Means silhouette is low everywhere (best 0.1151 at k=3, 0.0878 at k=10): weak cluster structure, tastes are a continuum.
+- k searched from 3 to 10 on purpose (k=2 only splits users crudely).
+- Clusters: 0 = crime/thriller (227 users, avg 3.76); 1 = action/adventure/sci-fi (137, 3.75); 2 = comedy/romance/drama (246, 3.51).
