@@ -45,3 +45,13 @@
 - Seasonal naive worst (RMSE 870.3): no stable yearly seasonality.
 - Limitation: volume is driven by a few heavy raters, so the series is bursty.
 - Future work: ARIMA(1,0,1), since ADF says no differencing is needed.
+
+## Prefect orchestration observations
+- Pipeline stages: ingest -> validate -> split -> features -> train -> evaluate -> quality gate -> save.
+- Retries: ingestion retries at 5s, 15s, 30s; save retries twice. Demo: <what you saw with the wrong URL>.
+- Quality gate (RMSE <= 0.90, AUC >= 0.75, SVD RMSE <= 0.95): a deliberately strict threshold
+  blocked saving and latest.txt stayed on the previous version.
+- Data validation fails fast on row count, missing values, rating range and duplicates.
+- Notifications: Discord webhook for success and failure; failures include the error message.
+- Model versioning: timestamped folders plus latest.txt, with metrics.json beside each bundle.
+- Limitation: the API loads the model once at startup, so it needs a restart to pick up a new version.
